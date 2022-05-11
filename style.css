@@ -1,0 +1,75 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: black;
+  }
+  
+  .btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .btn:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .btn:before {
+    font-family: "Roboto", sans-serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .btn-1 {
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  
+  .btn-1a:hover,
+  .btn-1a:active {
+    color: gray;
+    background: #fff;
+  }
+  
+  p {
+    color: white;
+    font-style: italic;
+  }
+  
+  h3 {
+    color: #0f2d70;
+    font-weight: 700px;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .names {
+    text-align: center;
+  }
