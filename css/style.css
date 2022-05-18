@@ -45,11 +45,15 @@ span{
 .canvas{
     background-color: var(--canvas-color);
     margin-top: 10px;
-    margin-bottom: 10px;
+    /* margin-bottom: 0px; */
     height: 200px;
-    width: 350px ;
+    width: 300px ;
 }
 
+.canvas-border{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
 .canvas:hover,
 .canvas:active {
     color: gray;
@@ -59,10 +63,10 @@ span{
 #disenos{
     display: grid;
     margin-top: 10px;
-    grid-template-columns:repeat(auto-fill,355px);
+    grid-template-columns:repeat(auto-fill,300px);
     column-gap: 40px;
     justify-content:center;
-    row-gap: 40px;
+    row-gap: 5px;
 }
 .contenedorDiseno{
     display: flex;
@@ -85,11 +89,12 @@ span{
     cursor: pointer;
     font-family: var(--font-family);
     background-color: var(--btn-color);
+    margin-top: 10px;
 }
 .tickIcon{
     position: relative;
     top: 15px;
-    right: -310px;
+    right: -270px;
     font-size: 50px;
     color: var(--font-color);
     background-color: none;
